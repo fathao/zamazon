@@ -20,7 +20,8 @@ function getChars(char, length) {
 
 const delim = "\t\t";
 const fieldNames = ["id", "product_name", "department_name", "price", "stock_quantity"];
-function printTable(data) {
+
+function printTable(data, callback) {
   const lengths = fieldNames.map(fieldName => getMaxLength(data, fieldName));
   const headers = fieldNames.map((fieldName, index) => pad(fieldName, lengths[index])).join(delim);
 
@@ -35,6 +36,8 @@ function printTable(data) {
       .join(delim)
     );
   }
+
+  callback();
 }
 
 module.exports = printTable;
