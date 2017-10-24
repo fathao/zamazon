@@ -1,4 +1,4 @@
-# zamazon
+# zamazon #
 
 An customer app that can shop from our list.
 
@@ -6,7 +6,7 @@ An customer app that can shop from our list.
 
 This app requires node.js, inquirer package and mysql package from npm install.
 
-##Installing
+##Installing##
 
 Open terminal 
 
@@ -16,11 +16,11 @@ enter npm install inquirer
 
 enter npm install mysql
 
-##Running the tests
+##Running the tests##
 
 Type node zammazon.js to run the app in the zamazon directory.
 
-##License
+##License##
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
