@@ -63,7 +63,7 @@ function sendOrder(product, quantity) {
                 console.error("System error! Sorry the order didin't go through.");
                 readProducts();
             } else {
-                console.log("Total price is: " + result * product.price);
+                console.log("Total price is: " + quantity * product.price);
                 connection.end();
             }
         }); 
